@@ -23,3 +23,5 @@ stamp-h1
 /src/grammar.h
 /src/.deps
 /src/bas55
+.vs
+x64

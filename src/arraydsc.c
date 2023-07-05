@@ -1,3 +1,4 @@
+
 /* --------------------------------------------------------------------------
  * Copyright (C) 2023 Jorge Giner Cordero
  * License: GNU GPL version 3 or later <https://gnu.org/licenses/gpl.html>

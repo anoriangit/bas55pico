@@ -272,7 +272,7 @@ static char *complete_basic_cmd(const char *text, int state)
 	const char *word;
 
 	word = find_word(text, s_basic_words, state);
-	if (word) {
+	if (word) {	
 		return strdup(word);
 	}
 

@@ -1,0 +1,22 @@
+
+This is based on the original 2.0 version from github: https://github.com/jorgicor/bas55.git
+forked to: https://github.com/anoriangit/bas55pico.git
+
+********************************************
+WINDOWS BUILD
+********************************************
+#r1c000
+
+- using visual studio 2022
+
+- the required config.h and grammar.c/h files were initially created 
+	by running the following under WSL:
+	./bootstrap
+	./configure
+	make
+
+- an override for strdup (redefine as _strdup) had to be added to the customization header
+(config_add.h: this is a new file and is included into all sources from the end of config.h)
+
+
+
