@@ -9,11 +9,17 @@
 #define strdup _strdup
 #endif
 
-#ifdef BAS55PICO
+#if defined(BAS55PICO) || defined(WINBAS55)
 #undef main
 #define main bas55_main
 int bas55_main(int argc, char *argv[]);
+
+#define  CON_STDIO_OVERRIDES
+#include "conio.h"
+
 #endif
+
+
 
 
 // config_add.h

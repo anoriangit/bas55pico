@@ -78,6 +78,9 @@
     <ClCompile Include="..\src\grammar.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="winmain.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\src\ngetopt.h">
@@ -101,7 +104,7 @@
     <ClInclude Include="..\src\grammar.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\src\config_add.h">
+    <ClInclude Include="..\config_add.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

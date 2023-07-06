@@ -3,9 +3,8 @@ This is based on the original 2.0 version from github: https://github.com/jorgic
 forked to: https://github.com/anoriangit/bas55pico.git
 
 ********************************************
-WINDOWS BUILD
+BAS55 WINDOWS PROTOTYPING BUILD
 ********************************************
-#r1c000
 
 - using visual studio 2022
 
@@ -17,6 +16,7 @@ WINDOWS BUILD
 
 - an override for strdup (redefine as _strdup) had to be added to the customization header
 (config_add.h: this is a new file and is included into all sources from the end of config.h)
+
 
 
 
