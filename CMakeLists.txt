@@ -12,6 +12,7 @@ src/util.c src/vm.c
 include_directories(
 	.
     src
+	../TgLib/src
 )
 
 target_compile_definitions(libbas55 PRIVATE
